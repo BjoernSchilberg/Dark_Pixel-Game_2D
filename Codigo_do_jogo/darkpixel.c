@@ -14,19 +14,19 @@ int main(void)
      
        InitAudioDevice();
 
-Music music = LoadMusicStream("./../audio/Beep2.MP3");
+Music music = LoadMusicStream("audio/Beep2.mp3");
  PlayMusicStream(music);
  
  
  //firabollsong
  
  
- Sound firebollsong= LoadSound("./../audio/firabollsong.mp3");
-  Sound hit_boneco= LoadSound("./../audio/hit_boneco.mp3");
+ Sound firebollsong= LoadSound("audio/firabollsong.mp3");
+  Sound hit_boneco= LoadSound("audio/hit_boneco.mp3");
 //------------------------------------------------------------------------------------------   
     //Mapas do jogo
     
-    Texture2D Background = LoadTexture("./../img/background2.png");
+    Texture2D Background = LoadTexture("img/background2.png");
     int frameWidthBackground = Background.width/4;
     int frameHeightBackground = Background.height;
     int currentFrameBackground = 0; 
@@ -36,28 +36,28 @@ Music music = LoadMusicStream("./../audio/Beep2.MP3");
                     
         //barra_life_boss
         
-        Texture2D barra_life_boss= LoadTexture("./../img/barra_life_boss.png");
+        Texture2D barra_life_boss= LoadTexture("img/barra_life_boss.png");
     int frameWidthbarra_life_boss= barra_life_boss.width/16;
     int frameHeightbarra_life_boss = barra_life_boss.height;
     int currentFramebarra_life_boss = 0; 
 
       //Barra life
     
-    Texture2D Life= LoadTexture("./../img/Life.png");
+    Texture2D Life= LoadTexture("img/Life.png");
     int frameWidthLife= Life.width/8;
     int frameHeightLife = Life.height;
     int currentFrameLife = 0; 
     
     //bollFire
     
-    Texture2D fireboll= LoadTexture("./../img/bollFire.png");
+    Texture2D fireboll= LoadTexture("img/bollFire.png");
     int frameWidthfireboll= fireboll.width/6;
     int frameHeightfireboll = fireboll.height;
     int frameCountfireboll= 6; 
     int currentFramefireboll = 0; 
     
     //florhit
-     Texture2D florhit = LoadTexture("./../img/florhit.png");
+     Texture2D florhit = LoadTexture("img/florhit.png");
     int frameWidthflorhit= florhit.width/3;
     int frameHeightflorhit = florhit.height;
     int frameCountflorhit= 3; 
@@ -69,7 +69,7 @@ Music music = LoadMusicStream("./../audio/Beep2.MP3");
   
    // inseto
     
-    Texture2D  Inseto= LoadTexture("./../img/inseto.png");
+    Texture2D  Inseto= LoadTexture("img/inseto.png");
     int frameWidthInseto= Inseto.width/8;
     int frameHeightInseto = Inseto.height;
      int frameCountInseto = 3;
@@ -79,7 +79,7 @@ Music music = LoadMusicStream("./../audio/Beep2.MP3");
     
        // boss
     
-    Texture2D  Boss = LoadTexture("./../img/bossbig.png");
+    Texture2D  Boss = LoadTexture("img/bossbig.png");
     int frameWidthBoss= Boss.width/7;
     int frameHeightBoss = Boss.height;
      int frameCountBoss = 7;
@@ -88,7 +88,7 @@ Music music = LoadMusicStream("./../audio/Beep2.MP3");
     
     // Personagem 
     
-    Texture2D spritesheet = LoadTexture("./../img/mago.png");// Carrega uma lista de um personagem
+    Texture2D spritesheet = LoadTexture("img/mago.png");// Carrega uma lista de um personagem
     int frameWidth = spritesheet.width/14; // Divide em 4, ja que são 4 animações e aplica a uma 
     int frameHeight = spritesheet.height; // pega a altura 
     int frameCount = 4; // Fala ue são 4 itens 
