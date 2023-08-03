@@ -38,3 +38,10 @@ I (Lucas Pontes) made all music, sound effects, art.
 ![4](screenshots//221431334-82fbf7bb-4e0a-4a2e-9785-743ae404eb4b.PNG)
 
 ![Parallax_florest_game](screenshots//230469694-89ba91a7-54ed-4090-b125-8b73cc28e1fe.jpeg)
+
+## Compile under Linux
+
+```shell
+cd Codigo_do_jogo
+gcc darkpixel.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o darkpixel
+```
