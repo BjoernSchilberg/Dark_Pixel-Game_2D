@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Darkpixel
+Comment=https://github.com/BjoernSchilberg/Dark_Pixel-Game_2D
+Exec=darkpixel
+Icon=icon
+GenericName=Darkpixel
+Categories=Game
+Terminal=false

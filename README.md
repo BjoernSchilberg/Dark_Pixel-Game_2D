@@ -41,7 +41,15 @@ I (Lucas Pontes) made all music, sound effects, art.
 
 ## Compile under Linux
 
+https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux
+
 ```shell
 cd Codigo_do_jogo
 gcc darkpixel.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o darkpixel
+```
+
+### Create appimage
+
+```shell
+linuxdeploy-x86_64.AppImage --appdir AppDir/ --output appimage -d appimage/darkpixel.desktop -i appimage/icon.png -e Codigo_do_jogo/darkpixel
 ```
