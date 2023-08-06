@@ -1,0 +1,12 @@
+#!/bin/bash
+# Determine the location of the AppImage
+APPDIR="$(dirname "$(readlink -f "${0}")")"
+
+# Set the path to the binary inside the AppImage
+BINDIR="$APPDIR/usr/bin"
+
+# Change to that directory
+cd "${BINDIR}"
+
+# Run the application
+exec ./darkpixel "$@"

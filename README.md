@@ -51,5 +51,5 @@ gcc darkpixel.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o darkpixel
 ### Create appimage
 
 ```shell
-linuxdeploy-x86_64.AppImage --appdir AppDir/ --output appimage -d appimage/darkpixel.desktop -i appimage/icon.png -e Codigo_do_jogo/darkpixel
+linuxdeploy-x86_64.AppImage --appdir AppDir/ --output appimage -d appimage/darkpixel.desktop -i appimage/icon.png -e Codigo_do_jogo/darkpixel --custom-apprun=appimage/AppRun
 ```
